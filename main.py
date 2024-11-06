@@ -14,9 +14,9 @@ st.set_page_config(
     page_icon=":brain:",  # Favicon emoji
     layout="centered",  # Page layout option try another "wide"
 )
-CHATBOT_NAME = "Eshwaran" 
-st.title(f"Chat with {CHATBOT_NAME}!")
-st.write(f"Hello! I am {CHATBOT_NAME}, your AI assistant.")
+#CHATBOT_NAME = "Eshwaran" 
+#st.title(f"Chat with {CHATBOT_NAME}!")
+st.write(f"Copy of gemini, your AI assistant.")
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
