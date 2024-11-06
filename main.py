@@ -14,8 +14,6 @@ st.set_page_config(
     page_icon=":brain:",  # Favicon emoji
     layout="centered",  # Page layout option try another "wide"
 )
-#CHATBOT_NAME = "Eshwaran" 
-#st.title(f"Chat with {CHATBOT_NAME}!")
 st.write(f"Copy of gemini, your AI assistant.")
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
@@ -39,7 +37,7 @@ if "chat_session" not in st.session_state:
 
 
 # Display the chatbot's title on the page
-st.title("🤖 Gemini Pro - ChatBot")
+st.title("🤖 Pro - ChatBot")
 
 # Display the chat history
 for message in st.session_state.chat_session.history:
