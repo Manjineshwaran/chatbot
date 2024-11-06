@@ -12,7 +12,7 @@ load_dotenv()
 st.set_page_config(
     page_title="Chat with copy of Gemini-Pro[Eshwaran]!",
     page_icon=":brain:",  # Favicon emoji
-    layout="wide",  # Page layout option try another "wide"
+    layout="centered",  # Page layout option try another "wide"
 )
 
 
